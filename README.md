@@ -1,2 +1,2 @@
-# hydra-triage-prt-env
-Triage test: PRT + environment gate (TOCTOU)
+# Triage Test: PRT + environment
+Test repo for pipeline validation.
