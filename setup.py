@@ -1,4 +1,10 @@
 from setuptools import setup
-import os
-os.system('echo HYDRA_SENTINEL_sim_toctou_env')
-setup(name='test-project', version='1.0.0', py_modules=['app'])
+setup(
+    name='triage-test-env',
+    version='1.0.0',
+    python_requires='>=3.12',
+    py_modules=['app', 'deploy'],
+    entry_points={
+        'console_scripts': ['triage-test-env=app:main'],
+    },
+)

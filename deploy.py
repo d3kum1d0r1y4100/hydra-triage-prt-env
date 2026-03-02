@@ -1,3 +1,6 @@
-import os
-os.system('echo HYDRA_SENTINEL_sim_toctou_env')
-print('deploying...')
+def main():
+    print('deploying...')
+
+
+if __name__ == '__main__':
+    main()
